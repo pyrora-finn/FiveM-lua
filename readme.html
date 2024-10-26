@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - FiveM Script</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        code {
+            background-color: #f8f8f8;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>FiveM Script</h1>
+<p>Dies ist ein einfaches Beispiel für ein FiveM-Skript, das die Benutzerregistrierung und -anmeldung ermöglicht.</p>
+
+<h2>Inhalt</h2>
+<ul>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Nutzung</a></li>
+    <li><a href="#license">Lizenz</a></li>
+</ul>
+
+<h2 id="features">Features</h2>
+<ul>
+    <li>Benutzerregistrierung und -anmeldung über das Spiel-Chat-System.</li>
+    <li>Speicherung von Benutzerdaten in einer SQLite-Datenbank.</li>
+    <li>Einfache Befehle zur Interaktion mit dem Skript.</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+<pre>
+1. Erstelle einen neuen Ordner in deinem <code>resources</code>-Verzeichnis deines FiveM-Servers.
+   Benenne den Ordner <code>my_fivem_script</code>.
+
+2. Füge die folgenden Dateien in diesen Ordner ein:
+   - <code>fxmanifest.lua</code>
+   - <code>server.lua</code>
+   - <code>client.lua</code>
+
+3. Öffne deine <code>server.cfg</code> und füge die folgende Zeile hinzu:
+   <code>start my_fivem_script</code>
+
+4. Starte deinen FiveM-Server.
+</pre>
+
+<h2 id="usage">Nutzung</h2>
+<pre>
+1. Um einen neuen Benutzer zu registrieren, gib im Spiel-Chat den folgenden Befehl ein:
+   <code>/register <Benutzername> <Passwort></code>
+
+2. Um dich anzumelden, verwende den Befehl:
+   <code>/login <Benutzername> <Passwort></code>
+</pre>
+
+<h2 id="license">Lizenz</h2>
+<p>Dieses Skript steht unter der MIT-Lizenz.</p>
+
+</body>
+</html>
